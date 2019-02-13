@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+interface Test {
+  readonly foo: string;
+}
+
 class App extends Component {
   render() {
     return (
